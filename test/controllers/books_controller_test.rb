@@ -1,7 +1,13 @@
 require "test_helper"
 
-class BooksControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+RSpec.describe 'Book', type: :request  do
+  describe "POST /books" do
+    context "with valid attributes" do
+      let(:book_attributes) { attributes_for(:book) }
+
+      if
+
+    end
+  end
+
 end
