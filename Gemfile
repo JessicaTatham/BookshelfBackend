@@ -22,7 +22,7 @@ gem "sidekiq"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
-gem 'rspec-rails', '~> 5.0.0'
+gem 'rspec-rails', '~> 7.1.1'
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache"
 gem "solid_queue"
